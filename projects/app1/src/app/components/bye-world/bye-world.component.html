@@ -1,0 +1,7 @@
+<ng-container *ngIf="loaded; else elseTemplate">
+  <p>Datos después de la carga inicial</p>
+  <p>bye-world works!</p>
+</ng-container>
+<ng-template #elseTemplate>
+  <p>Loading</p>
+</ng-template>

@@ -1,0 +1,8 @@
+<p>list works!</p>
+
+<isdi-add (onAdd)="handleAdd($event)"></isdi-add>
+<ul>
+  <li *ngFor="let item of tasks">
+    <isdi-item [task]="item" (onDelete)="handleDelete($event)"></isdi-item>
+  </li>
+</ul>

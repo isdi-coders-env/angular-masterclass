@@ -1,0 +1,8 @@
+<p>Add task</p>
+<input
+  type="text"
+  name="title-task"
+  placeholder="Describe la tarea"
+  [(ngModel)]="newTask.title"
+/>
+<button type="button" (click)="handleSave()">Guardar</button>
